@@ -9,7 +9,7 @@ body {
   background-color: #bdcad9;
   background-image: linear-gradient(315deg, #bdcad9 0%, #e1dada 74%);
   overflow-x: hidden;
-  font-family: "Roboto", serif;
+  font-family: "Roboto", sans-serif;
 }
 
 #title {
@@ -85,7 +85,7 @@ p {
 select {
   /* position: relative; */
   left: 25%;
-  font-family: "Roboto", serif;
+  font-family: "Roboto", sans-serif;
   text-align: center;
   background-color: #ff0054;
   border: none;
@@ -101,7 +101,7 @@ select {
 input[type="text"] {
   /* position: relative; */
   left: 25%;
-  font-family: "Roboto", serif;
+  font-family: "Roboto", sans-serif;
   text-align: center;
   background-color: #ff0054;
   border: none;
