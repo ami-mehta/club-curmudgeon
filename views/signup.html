@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Club Curmudgeon</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div><h1>Club </br> Curmudgeon</h1></div>
+    </header>
+    <div id="container">
+      <section>
+        <h2>Make A Profile</h2>
+      </section>
+      <p>
+        Put your best curmudgeon self-ie out there. The more honest you are with
+        yourself, the higher your chances are of finding love on Club
+        Curmudgeon.
+      </p>
+      <form name="form" class="form-as" method="POST" action="/confirmation">
+        <h3>What's your name (enter a pseudonym)?</h3>
+        <input
+          onclick="q1RemoveWarning()"
+          type="text"
+          id="q1o1"
+          name="q1"
+          value=""
+        />
+        <!-- <p id="q1-warning" class="warning">Try Again</p> -->
+
+        <h3 id="q2-title" class="form-qs">
+          Choose a Club Curmudgeon avatar (photos are shared only after you
+          match to ensure love at first sight):
+        </h3>
+        <select name="q2">
+          <option value="Oscar the Grouch">Oscar the Grouch</option>
+          <option value="Grumpy the Dwarf">Grumpy the Dwarf</option>
+          <option value="Monty Burns">Monty Burns</option>
+        </select>
+        <!-- <p id="q2-warning" class="warning">Try Again</p> -->
+
+        <h3>How cranky are you?</h3>
+        <input
+          onclick="q3RemoveWarning()"
+          type="radio"
+          id="q3o1"
+          name="q3"
+          value="Extremely Hangry"
+        />
+        <label for="q3o1"> Extremely Hangry</label><br />
+        <input
+          onclick="q1RemoveWarning()"
+          type="radio"
+          id="q3o2"
+          name="q3"
+          value="Highly Irritated"
+        />
+        <label for="q3o2"> Highly Irritated</label><br />
+        <input
+          onclick="q3RemoveWarning()"
+          type="radio"
+          id="q3o3"
+          name="q3"
+          value="Moderately Grumpy"
+        />
+        <label for="q3o3"> Moderately Grumpy</label><br />
+        <!-- <p id="q3-warning" class="warning">Try Again</p> -->
+
+        <h3>What's bothering you?</h3>
+        <input
+          onclick="q4RemoveWarning()"
+          type="checkbox"
+          id="q4o1"
+          name="q4"
+          value="Everything"
+        />
+        <label for="q4o1"> Everything</label><br />
+        <!-- <p id="q4-warning" class="warning">Try Again</p> -->
+
+        <h3>What's your approach to life?</h3>
+        <input
+          onclick="q5RemoveWarning()"
+          type="radio"
+          id="q5o1"
+          name="q5"
+          value="Cynicism"
+        />
+        <label for="q5o1"> Cynicism</label><br />
+        <input
+          onclick="q5RemoveWarning()"
+          type="radio"
+          id="q5o2"
+          name="q5"
+          value="Pessimism"
+        />
+        <label for="q5o2"> Pessimism</label><br />
+        <input
+          onclick="q5RemoveWarning()"
+          type="radio"
+          id="q5o3"
+          name="q5"
+          value="Skepticism"
+        />
+        <label for="q5o3"> Skepticism</label><br />
+        <!-- <p id="q5-warning" class="warning">Try Again</p> -->
+
+        <h3 id="q6-title" class="form-qs">"I wish I could..."</h3>
+        <select name="q6">
+          <option value="Move to Mars">Move to Mars</option>
+          <option value="Go Off the Grid">Go Off the Grid</option>
+          <option value="Teleport to Tahiti">Teleport to Tahiti</option>
+        </select>
+        <!-- <p id="q6-warning" class="warning">Try Again</p> -->
+
+        <h3>"I could use a: _____"</h3>
+        <input
+          onclick="q7RemoveWarning()"
+          type="radio"
+          id="q7o1"
+          name="q7"
+          value="Hug"
+        />
+        <label for="q7o1"> Hug</label><br />
+        <input
+          onclick="q7RemoveWarning()"
+          type="radio"
+          id="q7o2"
+          name="q7"
+          value="Time-Travelling Machine"
+        />
+        <label for="q7o2"> Time-Travelling Machine</label><br />
+        <input
+          onclick="q7RemoveWarning()"
+          type="radio"
+          id="q7o3"
+          name="q7"
+          value="Vacation"
+        />
+        <label for="q7o3"> Vacation</label><br />
+        <!-- <p id="q7-warning" class="warning">Try Again</p> -->
+
+        <h3>When are you available for a date?</h3>
+        <input
+          onclick="q8RemoveWarning()"
+          type="checkbox"
+          id="q8o1"
+          name="q8"
+          value="Never"
+        />
+        <label for="q8o1"> Never</label><br /><br /><br />
+        <!-- <p id="q8-warning" class="warning">Try Again</p> -->
+
+        <input
+          class="main-button"
+          type="submit"
+          name="submit"
+          value="Lookin' Good"
+        />
+      </form>
+    </div>
+  </body>
+</html>

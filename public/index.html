@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Curmudgeons Club</title>
+    <!-- <link rel="stylesheet" href="style.css" /> -->
+    <!-- <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300&display=swap"
+      rel="stylesheet"
+    /> -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <script>
+      function scrollDown() {
+        document
+          .getElementById("landing-info")
+          .scrollIntoView({ behavior: "smooth" });
+      }
+    </script>
+    <!-- Landing Page -->
+    <header>
+      <div id="title">
+        <h1>Club <br />Curmudgeon</h1>
+      </div>
+    </header>
+    <div id="container">
+      <section>
+        <div id="landing-message">
+          <h3>The Dating App </br>Designed For Grumps</h3>
+        </div>
+      </section>
+      <p id="down-arrow"><span onclick="scrollDown()">⌄</span></p>
+      <section>
+        <div id="landing-info">
+          <h2>Find Your Match</h2>
+          <p>Are you a curmudgeon?</p>
+          <p>/kərˈməjən/ | <i>noun</i></p>
+          <p>A crusty, ill-tempered person.</p>
+          <p>Are you tired of other dating apps?</p>
+          <p>Are you bored of other people?</p>
+          <p>
+            Join CC today and discover a community of grumps looking for love.
+          </p>
+        </div>
+      </section>
+      <a href="/signup"><button class="main-button">Sign Up</button></a>
+      <div id="footer">
+        <p>
+          *This site is fictional.
+        </p>
+      </div>
+    </div>
+  </body>
+</html>

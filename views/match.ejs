@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/style.css">
+    <title>Club Curmudgeon</title>
+  </head>
+  <body>
+    <header>
+      <div><h1>Club Curmudgeon</h1></div>
+    </header>
+    <div id="container">
+    <section>
+      <div>
+        <h2>You've Got A Match!</h2>
+      </div>
+    </section>
+    <p>Name: <%= profile.answer1 %></p>
+    <p>Avatar: <%= profile.answer2 %></p>
+    <p>Mood: <%= profile.answer3 %></p>
+    <p>Pet Peeves: <%= profile.answer4 %></p>
+    <p>Religion: <%= profile.answer5 %></p>
+    <p>Life Goals: <%= profile.answer6 %></p>
+    <p>(Self-Care) Love Language: <%= profile.answer7 %></p>
+    <p>Availability: <%= profile.answer8 %></p>
+    <a href="<%= next %>"></a><button class="main-button">Delete</button></a>
+  </div>
+  </body>
+</html>
